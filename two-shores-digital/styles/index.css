@@ -1,0 +1,14 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.hero-bg {
+  background: linear-gradient(135deg, #0d9488 0%, #0ea5e9 50%, #f59e0b 100%);
+}
+.wave {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDE2IDQ5IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cGF0aCBkPSJNMTQxNiA0OEMxMTk1LjUgMzQuNSA5NzUuNSAxIDc1NS41IDFTMzE1LjUgMzQuNSA5NS41IDQ5SDBWMEgxNDE2VjQ4eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==")
+    bottom no-repeat;
+  background-size: cover;
+}

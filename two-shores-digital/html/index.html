@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Two Shores Digital</title>
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body class="bg-white text-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50">
+      <div
+        class="container mx-auto px-6 py-3 flex justify-between items-center"
+      >
+        <a href="index.html" class="text-2xl font-bold text-emerald-600"
+          >Two Shores Digital</a
+        >
+        <div class="hidden md:flex space-x-8">
+          <a href="index.html" class="text-emerald-600 font-medium">Home</a>
+          <a href="cases.html" class="hover:text-emerald-600">Cases</a>
+          <a href="services.html" class="hover:text-emerald-600">Services</a>
+          <a href="about.html" class="hover:text-emerald-600">About Us</a>
+          <a href="contact.html" class="hover:text-emerald-600">Contact</a>
+        </div>
+        <button class="md:hidden text-gray-600">
+          <i data-feather="menu"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg pt-32 pb-20 text-white">
+      <div class="container mx-auto px-6 text-center">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6" data-aos="fade-up">
+          Where two shores meet, growth begins
+        </h1>
+        <p
+          class="text-xl md:text-2xl mb-10 max-w-3xl mx-auto"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          Connecting Brazilian creativity with European strategy to deliver real
+          digital growth
+        </p>
+        <a
+          href="contact.html"
+          class="bg-white text-emerald-700 px-8 py-3 rounded-full font-semibold text-lg hover:bg-emerald-100 transition duration-300"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
+          Let's Talk Growth
+        </a>
+      </div>
+      <div class="wave"></div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+            <h2 class="text-3xl font-bold mb-4">Who We Are</h2>
+            <p class="text-lg mb-4">
+              Two Shores Digital is a digital marketing agency that bridges the
+              gap between Brazilian creativity and European strategic thinking.
+              We specialize in delivering measurable growth for businesses
+              operating between these two dynamic markets.
+            </p>
+            <p class="text-lg">
+              Our team combines technical expertise with innovative marketing
+              approaches to create campaigns that not only drive traffic but
+              generate real business results.
+            </p>
+          </div>
+          <div class="md:w-1/2 flex justify-center" data-aos="fade-left">
+            <div
+              class="bg-gray-200 border-2 border-dashed rounded-xl w-80 h-80 flex items-center justify-center"
+            >
+              <span class="text-gray-500">Agency Image</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-16" data-aos="fade-up">
+          Our Core Services
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- Service 1 -->
+          <div class="bg-white p-8 rounded-xl shadow-lg" data-aos="fade-up">
+            <div class="text-emerald-600 mb-4">
+              <i data-feather="trending-up" class="w-12 h-12"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-3">PPC Management</h3>
+            <p class="text-gray-600">
+              Strategic Google Ads and Meta Ads campaigns focused on ROI,
+              targeting both local and international markets with precision.
+            </p>
+          </div>
+
+          <!-- Service 2 -->
+          <div
+            class="bg-white p-8 rounded-xl shadow-lg"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="text-emerald-600 mb-4">
+              <i data-feather="layout" class="w-12 h-12"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-3">Landing Page Optimization</h3>
+            <p class="text-gray-600">
+              Conversion-focused landing pages with strategic copywriting and
+              design to maximize your campaign performance.
+            </p>
+          </div>
+
+          <!-- Service 3 -->
+          <div
+            class="bg-white p-8 rounded-xl shadow-lg"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="text-emerald-600 mb-4">
+              <i data-feather="bar-chart-2" class="w-12 h-12"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-3">Analytics Setup</h3>
+            <p class="text-gray-600">
+              Complete tracking implementation with GA4, Tag Manager, and Meta
+              Pixel to measure what truly matters for your business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-16" data-aos="fade-up">
+          Real Results for Real Businesses
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="text-center p-6 border rounded-xl" data-aos="fade-up">
+            <div class="text-5xl font-bold text-emerald-600 mb-2">+380%</div>
+            <p class="text-gray-600">
+              Increase in leads for Irish local businesses
+            </p>
+          </div>
+          <div
+            class="text-center p-6 border rounded-xl"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="text-5xl font-bold text-emerald-600 mb-2">+125%</div>
+            <p class="text-gray-600">
+              Growth in e-commerce revenue for Brazilian brands in Europe
+            </p>
+          </div>
+          <div
+            class="text-center p-6 border rounded-xl"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="text-5xl font-bold text-emerald-600 mb-2">98%</div>
+            <p class="text-gray-600">
+              Client retention rate through performance-based partnerships
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Differentiator Section -->
+    <section
+      class="py-20 bg-gradient-to-r from-emerald-500 to-blue-500 text-white"
+    >
+      <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-2/3 mb-10 md:mb-0" data-aos="fade-right">
+            <h2 class="text-3xl font-bold mb-4">The Two Shores Advantage</h2>
+            <p class="text-xl">
+              We're not just another digital marketing agency. Our unique
+              position as a bridge between Brazilian creativity and European
+              strategy allows us to deliver campaigns that are both innovative
+              and results-driven.
+            </p>
+          </div>
+          <div class="md:w-1/3 flex justify-center" data-aos="fade-left">
+            <div
+              class="bg-white bg-opacity-20 rounded-full w-64 h-64 flex items-center justify-center"
+            >
+              <i data-feather="git-branch" class="w-32 h-32"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-6" data-aos="fade-up">
+          Ready to Start Your Growth Journey?
+        </h2>
+        <p
+          class="text-xl mb-10 max-w-2xl mx-auto"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          Let's connect your business to new opportunities across shores
+        </p>
+        <a
+          href="contact.html"
+          class="bg-emerald-600 text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-emerald-700 transition duration-300"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
+          Schedule a Consultation
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-6 md:mb-0">
+            <h3 class="text-2xl font-bold text-emerald-400">
+              Two Shores Digital
+            </h3>
+            <p class="mt-2 text-gray-400">
+              Connecting creativity with strategy across continents
+            </p>
+          </div>
+          <div class="flex space-x-6">
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i data-feather="facebook"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i data-feather="twitter"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i data-feather="linkedin"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i data-feather="instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div
+          class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400"
+        >
+          <p>&copy; 2023 Two Shores Digital. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      AOS.init();
+      feather.replace();
+    </script>
+  </body>
+</html>
